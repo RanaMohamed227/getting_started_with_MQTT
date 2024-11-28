@@ -1,9 +1,9 @@
 ## MQTT
 
+![Screenshot 2024-11-28 104832](https://github.com/user-attachments/assets/1721e81e-0f58-411f-8d35-6951f6c473ed)
 
-![[Pasted image 20241128104841.png]]
 
-	Imagine a scenario where i want to post on Facebook i am the publisher or the admin then the Facebook or the place where i publish is called broker and the viewers or people who interact on the post (likes or whatever) are called subscribers
+Imagine a scenario where i want to post on Facebook i am the publisher or the admin then the Facebook or the place where i publish is called broker and the viewers or people who interact on the post (likes or whatever) are called subscribers
 
 Note:
 admin share the post on the facebook or broker (وسيط)  2na mr7t4 gave this post to a certain one but the facabook gave it to all
@@ -13,22 +13,25 @@ admin share the post on the facebook or broker (وسيط)  2na mr7t4 gave this p
 
 ## MQTT: messaging protocol 
 
-	devices in the network send messages to each other
+devices in the network send messages to each other
 
 
-	smart home: application sends messages to home elements 
+smart home: application sends messages to home elements 
 
-	so, we use mqtt so they communicate with each other:
-	the most important protocol in IOT
+so, we use mqtt so they communicate with each other:
+the most important protocol in IOT
 
 
 
-![[Pasted image 20241128105555.png]]
+
+
+![Screenshot 2024-11-28 105517](https://github.com/user-attachments/assets/add35b7c-f4d3-4d7c-86b2-ef58603d0173)
+
 
 
 
 --------------------------
-           If we have three sensors in the network each responsible for a specific task
+If we have three sensors in the network each responsible for a specific task
 i want to read the readings of these sensors and send it to devices
 
 so the sensors first sends the info or readings to the broker and the broker decides where to send these info
@@ -41,7 +44,9 @@ Based on the topic : بقوله ابعت درجة الحرارة للناس بت
 1- Smart home -sensors-
 
 
-![[Pasted image 20241128111542.png]]
+![Screenshot 2024-11-28 111528](https://github.com/user-attachments/assets/58363565-74c1-49db-949f-aa02add2c556)
+
+
 
 
 2- Car comm
@@ -55,7 +60,12 @@ car (Publisher) sends Speed info then sends it to server MQTT (broker) then the 
 
 some cases require the mobile app to be publisher and sometimes i need to be subscriber. 
 Client --> Publisher / subscriber
-![[Pasted image 20241128113445.png]]
+
+
+
+![Screenshot 2024-11-28 113436](https://github.com/user-attachments/assets/34126470-6b3a-4180-be7f-223036232865)
+
+
 
 ------
 ## the Message sent to the broker can be command or data  
@@ -65,7 +75,10 @@ Client --> Publisher / subscriber
 --> Topic is similar to channel in data transformation 
 
 
- ![[Pasted image 20241128114154.png]]
+
+
+![Screenshot 2024-11-28 114141](https://github.com/user-attachments/assets/cefc0e02-8453-467c-b937-00bf30abb0d9)
+
 
 
 -------------------
@@ -105,6 +118,10 @@ Client --> Publisher / subscriber
 
 
 
-![[Pasted image 20241128124128.png]]
+
+![Screenshot 2024-11-28 124114](https://github.com/user-attachments/assets/248bb404-69a1-4a1f-a257-55d581f7c1e3)
+
+
+
 
 
